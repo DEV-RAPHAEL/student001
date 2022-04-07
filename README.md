@@ -37,3 +37,22 @@ Changes to:
 ```
 
 That way I can achieve what I did in update 1.
+
+3. Another thing I did was to make the font effective.
+From:
+```css
+*{
+    font-family: "Poppins Medium";
+}
+```
+
+To:
+```css
+@font-face{
+    font-family: "Poppins";
+    src: url("../font/Poppins-MediumItalic.ttf");
+}
+*{
+    font-family: "Poppins";
+}
+```
