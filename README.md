@@ -5,7 +5,7 @@
 There were many updates done in this:
 1. I changed the way the links were placed in the HTML documents (The Navigation Links). The Former was:
 
-```
+```html
 <div id="nav_link">
     <a href="index.htm">Home</a>
     <a href="card1.html">Recover Card</a>
@@ -18,7 +18,7 @@ There were many updates done in this:
 But now changed to:
 <br/>
 
-```
+```html
 <div id="nav_link">
     <a href="./">Home</a>
     <a href="./card1">Recover Card</a>
