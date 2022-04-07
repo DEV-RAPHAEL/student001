@@ -1,7 +1,16 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-MediumItalic.ttf");
+}
+
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Poppins Medium';    
+    font-family: 'Poppins';    
+}
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 a{
     color: white;
@@ -58,10 +67,10 @@ nav{
     color: white;
     padding-right: 2em;
     text-decoration: none;
+    transition: .5s;
 }
 #nav_link a:hover{
     color: orange;
-    
 }
 #hero{
     display: flex;
