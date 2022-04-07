@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REQUEST CARD | GTBank</title>
+    <link rel="stylesheet" href="/asset/style/style.css">
+</head>
+<body>
+    <main class="request_main">
+        <nav>
+            <div id="logo">
+                <h4>GTBank</h4>
+            </div>
+            <div id="nav_link">
+                <a href="index.html">Home</a>
+                <a href="card1.html">Recover Card</a>
+                <a href="track.html">Track Delivery</a>
+                <a href="register.html">Sign Up</a>
+            </div>
+        </nav>
+        <div id="form">
+                    <form>
+                        <h2>Request Card</h2>
+                        <h5>Please fill appropriately</h5>
+                        <input id="input" type="number" name="acct_num" placeholder="Enter Your Tracking ID here" min="5" max="5"size="100px" required>
+                       <div id="cards">
+                        Verve Card  <input type="radio" name="verve" id=""> 
+                        Visa Card <input type="radio" name="verve" id=""> 
+                        Master Card <input type="radio" name="verve" id=""> 
+                        </div>
+                    <h4>Security Options</h4>
+                    <input id="input" type="number" name="acct_num" placeholder="Question 1" required>
+                    <input id="input" type="number" name="acct_num" placeholder="Question 2" required>
+                    <button onclick="showAlert()">Show alert</button>
+            </form>
+        </div>
+    </main>
+</body>
+<script>  function showAlert() {
+    alert ("Your Request is processing, We will contact you soon!");
+  }</script>
+</html>
